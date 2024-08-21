@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>BIBLIOTECA2</title>
+    <script src="app.js"></script>
+    <script src="bootstrap/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            text-decoration: underline;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 1em;
+            text-align: center;
+        }
+        nav button {
+            margin: 0 0.5em;
+            padding: 0.5em 1em;
+            font-size: 1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        function showAlert() {
+            alert("Se guardó correctamente");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h2>BIBLIOTECA HOJITAS LIBRES</h2>
+        <h5>Bruno Chavez Quispe</h5>
+    </header>
+    <nav>
+        <button onclick="librofrm()">Registrar Libro</button>
+        <button onclick="librolist()">Lista de Libros</button>
+    </nav>
+    <main id="C1">
+    </main>
+</body>
+</html>
